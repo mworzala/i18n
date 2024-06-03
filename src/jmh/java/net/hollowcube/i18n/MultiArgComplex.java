@@ -47,8 +47,4 @@ public class MultiArgComplex {
         bh.consume(preParsed.resolve(ARGS));
     }
 
-    @Benchmark
-    public void cosmicThing(Blackhole bh) {
-        bh.consume(CosmicThing.parse(MESSAGE));
-    }
 }
